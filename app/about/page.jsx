@@ -24,11 +24,12 @@ export default function AboutPage() {
             <div className="md:w-2/5">
               <div className="relative w-full aspect-square max-w-md mx-auto">
                 <Image
-                  src="/me.jpeg?height=400&width=400"
-                  alt="Saad Mehmood"
-                  fill
-                  className="rounded-xl object-cover shadow-lg"
-                />
+  src="/me.jpeg"
+  alt="Me"
+  width={400}
+  height={400}
+/>
+
               </div>
             </div>
             <div className="md:w-3/5">
