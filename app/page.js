@@ -14,7 +14,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 animate-fade-in">
               <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6">
-                Hello, I'm <span className="text-foreground">Saad Rajpoot</span>
+                Hello, I'm <span className="text-foreground">Saad Mehmood</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-lg">
                 Computer Science Graduate & Web Developer passionate about creating modern digital experiences.
