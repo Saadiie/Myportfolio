@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="container">
           <h1 className="page-header text-center">About Me</h1>
           <p className="text-lg md:text-xl text-center max-w-3xl mx-auto text-muted-foreground">
-            A passionate computer science graduate with a love for creating innovative web solutions
+            A passionate .NET Developer with a love for creating innovative web solutions
           </p>
         </div>
       </section>
@@ -24,10 +24,11 @@ export default function AboutPage() {
             <div className="md:w-2/5">
               <div className="relative w-full aspect-square max-w-md mx-auto">
                 <Image
-  src="/me.jpeg"
-  alt="Me"
+  src="/saadiabt.png"
+  alt="saadiabt"
   width={400}
   height={400}
+  className="object-cover rounded-xl"
 />
 
               </div>
@@ -35,8 +36,7 @@ export default function AboutPage() {
             <div className="md:w-3/5">
               <h2 className="page-subheader">Who I Am</h2>
               <p className="text-muted-foreground mb-6">
-                I'm Saad Mehmood, a computer science graduate with a passion for web development and editing videos and picture
-                that are both functional and beautiful.
+                I'm Saad Mehmood, a .NET Developer with a passion for web development.
               </p>
               <p className="text-muted-foreground mb-6">
                 My journey in technology began during my studies at the University of Gujrat, where I developed a strong
@@ -80,14 +80,13 @@ export default function AboutPage() {
         <div className="container">
           <h2 className="page-subheader text-center mb-12">Technical Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <SkillBadge icon={<Code />} name="JavaScript" />
-            <SkillBadge icon={<Code />} name="React" />
-            <SkillBadge icon={<Code />} name="Next.js" />
-            <SkillBadge icon={<Code />} name="Node.js" />
+            <SkillBadge icon={<Code />} name="C#" />
+            <SkillBadge icon={<Code />} name="ASP.NET Core" />
+            <SkillBadge icon={<Code />} name="Bootstrap" />
+            <SkillBadge icon={<Code />} name="Entity Framework Core" />
             <SkillBadge icon={<Code />} name="HTML/CSS" />
-            <SkillBadge icon={<Code />} name="Tailwind CSS" />
-            <SkillBadge icon={<Code />} name="MongoDB" />
-            <SkillBadge icon={<CameraIcon />} name="Media Editing" />
+            <SkillBadge icon={<Code />} name="SQL Server" />
+            <SkillBadge icon={<Code />} name="MySQL" />
           </div>
         </div>
       </section>
@@ -97,13 +96,6 @@ export default function AboutPage() {
         <div className="container">
           <h2 className="page-subheader text-center mb-12">Professional Experience</h2>
           <div className="space-y-8">
-            <ExperienceCard
-              title="Freelance Web Developer"
-              company="Self-employed"
-              period="2023 - Present"
-              description="Developed custom websites and web applications for small businesses and startups. Managed client relationships, project timelines, and delivered high-quality solutions tailored to client needs."
-              skills={["WordPress", "JavaScript", "PHP", "MySQL"]}
-            />
             <ExperienceCard
               title="Crypto Marketing"
               company="SFS Tech Venture"
@@ -123,11 +115,7 @@ export default function AboutPage() {
           <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
             When I'm not in front of a computer, you can find me exploring these interests:
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
-            <InterestCard
-              title="Reading"
-              description="I enjoy reading books on technology, science fiction, and personal development."
-            />
+          <div className="flex flex-wrap justify-center gap-8">
             <InterestCard
               title="Photography"
               description="Capturing moments and exploring visual storytelling through photography."

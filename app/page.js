@@ -17,7 +17,7 @@ export default function Home() {
                 Hello, I'm <span className="text-foreground">Saad Mehmood</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-lg">
-                Computer Science Graduate & Web Developer passionate about creating modern digital experiences.
+                .NET Developer passionate about creating modern digital experiences.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button asChild>
@@ -29,9 +29,9 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center animate-fade-in">
-              <div className="relative w-64 h-64 md:w-80 md:h-80">
+              <div className="relative w-96 h-96 md:w-[28rem] md:h-[28rem] lg:w-[20rem] lg:h-[28rem]">
                 <Image
-                  src="/sr.png"
+                  src="/saadi1.png"
                   alt="Saad Rajpoot"
                   fill
                   className="rounded-full object-cover border-4 border-background shadow-xl"
@@ -46,26 +46,16 @@ export default function Home() {
       <section className="section-padding bg-background">
         <div className="container">
           <h2 className="page-subheader text-center mb-12">My Expertise</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
             <SkillCard
               icon={<Code className="w-10 h-10" />}
               title="Web Development"
               description="Building responsive and performant web applications using modern frameworks and technologies."
             />
             <SkillCard
-              icon={<Layout className="w-10 h-10" />}
-              title="UI/UX Design"
-              description="Creating intuitive and visually appealing user interfaces with a focus on user experience."
-            />
-            <SkillCard
               icon={<Database className="w-10 h-10" />}
               title="Backend Development"
               description="Developing robust server-side applications and RESTful APIs."
-            />
-            <SkillCard
-              icon={<Camera className="w-10 h-10" />}
-              title="Video & photo editing"
-              description="Professional video & photo editing to make your content stand out."
             />
           </div>
         </div>
@@ -103,16 +93,11 @@ export default function Home() {
       <section className="section-padding bg-background">
         <div className="container">
           <h2 className="page-subheader text-center mb-12">Featured Projects</h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8 place-items-center">
             <ProjectCard
               title="Documind"
               description="A full-stack AI based document creator using proper Authentication with payment integration."
-              tags={["Next.js", "Tailwind CSS", "Node.js", "MongoDB", "API Integration"]}
-            />
-            <ProjectCard
-              title="Portfolio"
-              description="A descriptive and detailed information about myself including my  skills,projects and contact info."
-              tags={["Shadecn/UI", "Next.js", "Tailwind CSS"]}
+              tags={["ASP.NET Core 8 (Web API / MVC)", "Razor Pages", "Bootstrap 5", "Entity Framework Core", "Azure OpenAI API", "SQL Server"]}
             />
           </div>
         </div>
@@ -126,12 +111,12 @@ export default function Home() {
             <TestimonialCard
               quote="Saad is an exceptional developer with a keen eye for detail. His work on our e-commerce platform exceeded our expectations."
               author="MUHAMMAD SIDDIQUE"
-              position="CEO, TechRetail"
+              position="Unity Developer, TechRetail"
             />
             <TestimonialCard
               quote="Working with Saad was a pleasure. He's not only technically proficient but also a great communicator and team player."
               author="HASNAIN AFZAL"
-              position="Project Manager, WebSolutions"
+              position=".NET Developer, WebSolutions"
             />
           </div>
         </div>

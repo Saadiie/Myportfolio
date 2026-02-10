@@ -10,9 +10,9 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">SAAD RAJPOOT</h2>
+            <h2 className="text-2xl font-bold">SAAD MEHMOOD</h2>
             <p className="mt-2 text-primary-light">
-              Computer Science Graduate | Web Developer
+              .NET Developer
             </p>
           </div>
 
@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-primary-light/30 text-center text-sm text-primary-light">
-          <p>© {new Date().getFullYear()} Saad Rajpoot. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SAAD MEHMOOD. All rights reserved.</p>
         </div>
       </div>
     </footer>

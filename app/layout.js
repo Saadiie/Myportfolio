@@ -16,9 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SAAD RAJPOOT - DEVELOPER",
   description: "A portfolio of Saad Rajpoot. A Full Stack Developer.",
-  icons: {
-    icon: "/favicon.svg",
-  },
+  icons: [
+    { rel: "icon", url: "/sfavicon.ico", sizes: "32x32" },
+    { rel: "icon", url: "/sfavicon.ico", sizes: "16x16" },
+  ],
+ 
 };
 
 export default function RootLayout({ children }) {

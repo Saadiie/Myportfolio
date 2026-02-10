@@ -53,7 +53,7 @@ export default function ContactPage() {
                 <ContactItem icon={<Mail className="w-5 h-5" />} title="Email" content="rajpootsaad491@gmail.com" href="mailto:rajpootsaad491@gmail.com" />
                 <ContactItem icon={<Phone className="w-5 h-5" />} title="Phone" content="+92 309 438 3896" href="tel:+921234567890" />
                 <ContactItem icon={<FaWhatsapp className="w-5 h-5" />} title="Whatsapp" content="Chat Us"href="https://api.whatsapp.com/send/?phone=923094383896&text&type=phone_number&app_absent=0" />
-                <ContactItem icon={<MapPin className="w-5 h-5" />} title="Location" content="Gujrat, Pakistan" />
+                <ContactItem icon={<MapPin className="w-5 h-5" />} title="Location" content="Lahore, Pakistan" />
               </div>
             </div>
           </div>
