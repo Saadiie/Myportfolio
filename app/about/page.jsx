@@ -22,7 +22,7 @@ export default function AboutPage() {
         <div className="container">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-2/5">
-              <div className="relative w-full aspect-square max-w-md mx-auto">
+              <div className="flex flex-col md:flex-row items-center gap-12">
                 <Image
   src="/saadiabt.png"
   alt="saadiabt"
